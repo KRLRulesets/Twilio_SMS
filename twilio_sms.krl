@@ -2,8 +2,8 @@ ruleset twilio_sms {
 
   meta {
         
-        key twilio {"account_sid" : “<account SID here>",
-                    "auth_token"  : “<auth token here>"
+        key twilio {"account_sid" : "<account SID here>",
+                    "auth_token"  : "<auth token here>"
         }
         
         use module a8x115 alias twilio with twiliokeys = keys:twilio()
